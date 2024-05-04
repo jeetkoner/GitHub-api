@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./cards/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Card</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Enter your GitHub Username</h2>
+        <form id="githubForm">
+            <input type="text" id="githubUsername" class="input-field" placeholder="Enter your GitHub username"
+                required>
+            <br>
+            <button type="button" class="submit-btn">Verify</button>
+            <p id="errorMsg" class="error-msg"></p>
+        </form>
+        <div id="loading">Loading...</div>
+    </div>
+
+
+    <script src="./script.js" type="module"></script>
+</body>
+
+
+</html>
